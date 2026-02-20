@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // ===== TYPEWRITER =====
     function initTypewriter() {
-        const text = "To the most caring, loving, intelligent and beautiful woman I know 💖";
+        const text = "To the most caring, loving, intelligent and beautiful Girl I know 💖";
         const element = document.getElementById('typewriter');
         let i = 0;
         
