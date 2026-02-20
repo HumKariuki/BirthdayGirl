@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Ann 💖 Happy Birthday</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- INTRO SCREEN -->
+    <div id="introScreen">
+        <div class="intro-card">
+            <h1>For Ann 💖</h1>
+            <p>Open With Love</p>
+            <button id="enterBtn">OPEN</button>
+        </div>
+    </div>
 
+    <!-- DARK MODE TOGGLE -->
+    <button id="darkToggle">🌙</button>
+
+    <!-- MAIN APP -->
+    <div id="mainApp">
+        <div class="hero">
+            <h1>Happy Birthday Ann 🎂</h1>
+            <div id="typewriter"></div>
+            <h3>✨ The Best Colleague & Beautiful Soul ✨</h3>
+        </div>
+
+        <!-- SLIDER SECTION -->
+        <div class="slider-section">
+            <h2 class="section-title">Beautiful Moments</h2>
+            <div class="slider-container">
+                <div class="slides" id="slider">
+                    <img src="IMG_20251116_080454_672.jpg" class="slide active" alt="Ann 1">
+                    <img src="IMG_20251116_060838_751.jpg" class="slide" alt="Ann 2">
+                    <img src="IMG-20251113-WA0001.jpg" class="slide" alt="Ann 3">
+                    <img src="IMG_20251126_203951_702.jpg" class="slide" alt="Ann 4">
+                    <img src="IMG_20251207_211756_696.jpg" class="slide" alt="Ann 5">
+                    <img src="IMG_20251221_083850_887.jpg" class="slide" alt="Ann 6">
+                    <img src="IMG_20251229_072508_367.jpg" class="slide" alt="Ann 7">
+                    <img src="IMG_20260111_141537_322.jpg" class="slide" alt="Ann 8">
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn" id="prevBtn">←</button>
+                <button class="slider-btn" id="nextBtn">→</button>
+            </div>
+            <div class="slider-indicator" id="slideIndicator">1/8</div>
+        </div>
+
+        <!-- MESSAGE CARD -->
+        <div class="message-card">
+            <p id="dynamicMessage">You make work brighter and life softer 💖</p>
+            <button class="message-btn" id="newMessageBtn">💌 New Message</button>
+        </div>
+
+        <!-- INTERACTIVE CARDS -->
+        <div class="interactive-grid">
+            <div class="card" id="loveCard">
+                <div class="card-icon">❤️</div>
+                <h3>Love</h3>
+                <div class="love-count" id="loveCount">0</div>
+            </div>
+            <div class="card" id="celebrateCard">
+                <div class="card-icon">🎉</div>
+                <h3>Party</h3>
+                <button class="card-btn" id="celebrateBtn">Celebrate</button>
+            </div>
+            <div class="card" id="secretCard">
+                <div class="card-icon">💝</div>
+                <h3>Secret</h3>
+                <button class="card-btn" id="secretBtn">Open</button>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>HumTech Solutions ❤️</p>
+            <small>📞 +254 721 112 164</small>
+        </div>
+    </div>
+
+    <!-- SECRET MODAL -->
+    <div id="secretModal">
+        <div class="modal-content">
+            <h2>My Dear Ann</h2>
+            <p>You are not just the best colleague...</p>
+            <p>You are someone truly special to me.</p>
+            <p>Happy Birthday! 🎂</p>
+            <button class="close-btn" id="closeModalBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
